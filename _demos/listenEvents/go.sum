@@ -1,0 +1,6 @@
+github.com/anotherhadi/wtui v0.0.0-20240209125924-fa5ee3f5cb81 h1:cM2P9vXHBDNqnkxezD1RiOY5I6kh8N/nYV6Ih5ycQ/g=
+github.com/anotherhadi/wtui v0.0.0-20240209125924-fa5ee3f5cb81/go.mod h1:8RZSc7zFf7Z9TtHyBFCUtJtHOJ/vpWQ6KmqMCb/hJfc=
+github.com/anotherhadi/wtui-components v0.0.2 h1:i1nPQXCttEd+A/1we49I1cs6bk/clEG+10RdsmMfBf4=
+github.com/anotherhadi/wtui-components v0.0.2/go.mod h1:bufnRQx9I+WyQXNyiKzOMDbg88wp57fMytBeV3g3Dnk=
+golang.org/x/sys v0.17.0 h1:25cE3gD+tdBA7lp7QfhuV+rJiE9YXTcS3VG1SqssI/Y=
+golang.org/x/sys v0.17.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
