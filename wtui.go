@@ -37,9 +37,11 @@ func Init() Window {
 	window.Height = 100
 	hexCode := make(map[string]string)
 	hexCode["\033"] = "Escape"
+	hexCode["\u001B"] = "Escape"
 	hexCode["\u000A"] = "Enter"
 	hexCode["\u007f"] = "Backspace"
-	hexCode["\u0000"] = "Ctrl @"
+	hexCode["\u0009"] = "Tab"
+	hexCode["\u0000"] = "Ctrl Space"
 	hexCode["\u0001"] = "Ctrl A"
 	hexCode["\u0002"] = "Ctrl B"
 	hexCode["\u0003"] = "Ctrl C"
@@ -48,7 +50,6 @@ func Init() Window {
 	hexCode["\u0006"] = "Ctrl F"
 	hexCode["\u0007"] = "Ctrl G"
 	hexCode["\u0008"] = "Ctrl H"
-	hexCode["\u0009"] = "Ctrl I"
 	hexCode["\u000B"] = "Ctrl K"
 	hexCode["\u000C"] = "Ctrl L"
 	hexCode["\u000D"] = "Ctrl M"
@@ -65,7 +66,6 @@ func Init() Window {
 	hexCode["\u0018"] = "Ctrl X"
 	hexCode["\u0019"] = "Ctrl Y"
 	hexCode["\u001A"] = "Ctrl Z"
-	hexCode["\u001B"] = "Ctrl ["
 	hexCode["\u001C"] = "Ctrl \\"
 	hexCode["\u001D"] = "Ctrl ]"
 	hexCode["\u001E"] = "Ctrl ^"
